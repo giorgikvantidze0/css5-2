@@ -60,23 +60,31 @@ body {
     display: flex;
 }
 
+.main-containre {
+    display: flex;
+    justify-content: center;
+}
+
+.boxx-containeer {
+    width: 100%;
+    max-width: 1040px;
+    display: flex;
+    justify-content: center;
+}
+
 .content-box-too {
     max-width: 1040px;
     background-color: #242642;
-    margin: 0 auto;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 64px 0px;
-    justify-content: space-around;
+
 }
 
 .box-content {
     padding: 40px 72px;
     display: flex;
     justify-content: space-between;
-    gap: 150px;
+
 }   
 
 .colam {
@@ -88,10 +96,14 @@ body {
     font-size: 20px;
 }
 
-.textt {
-    color: #C0C0C0;
-    font-size: 20px;
+.footer-boxx {
+    max-width: 1040px;
+    width: 100%;
+}
 
+.foter-main {
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
@@ -115,11 +127,39 @@ body {
 .cloudo-image {
     gap: 12px;
     align-items: center;
-    justify-content: center;
+    display: flex;
 }
 
 
 .Cloudo {
     font-size: 16px;
     color: #FFFFFF;
+}
+
+.amazing {
+    color: #C0C0C0;
+    font-size: 14px;
+    gap: 16px;
+    display: flex;
+}
+.href {
+    text-decoration: none;
+    color: #fff;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.href-navigation {
+    color: #8CE900;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.email {
+    text-decoration: none;
+    color: #fff;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
 }
